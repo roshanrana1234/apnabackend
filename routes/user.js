@@ -23,4 +23,4 @@ router.get('/getpostjobs', authenticate, userController.getpostjobs);
 //delete
 router.delete('/deletejobbyid/:_id', userController.deletejobbyid);
 
-export default router
+export default router;
